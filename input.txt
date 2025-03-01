@@ -1,0 +1,27 @@
+
+1. please build a website for managing a record collection. It should support full CRUD functionality and search. It should pull album art from the internet if possible and also link to album reviews. 
+
+
+2. please run the program
+
+
+3. File "C:\Users\szionic\Code\test\record_collection\api\main.py", line 4, in <module>
+    from api.routes import router
+ModuleNotFoundError: No module named 'api'
+
+
+4. File "C:\Users\szionic\Code\test\record_collection\api\routes.py", line 7, in <module>
+    from api import crud, schemas, services
+  File "C:\Users\szionic\Code\test\record_collection\api\crud.py", line 7, in <module>
+    from ..database.models import Genre, Record, Track
+ImportError: attempted relative import beyond top-level package
+
+5. Genres are listed, but they are invisible and when I select one, the form still fails validation saying that Genre is required
+
+6. The 'Add Record' button doesn't work
+
+7. Records aren't saved to the database
+
+8. Please write comprehensive tests for the frontend and backend and verify all functionality is working.
+
+

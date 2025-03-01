@@ -1,0 +1,3 @@
+"""
+Record Collection application.
+"""
